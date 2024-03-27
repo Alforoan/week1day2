@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel='stylesheet' href='index.css'>
+</head>
+<body>
+  <main class='main-container'>
+    <h1>Application for permission to date my daughter</h1>
+    <p><strong>Note:</strong> Form is to be completed at least 21 days prior to date</p>
+    <div class='container'>
+      <div style='padding-left:1rem'>
+        <p>Personal Details</p>
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" type="text" placeholder="Enter name here">
+        </div>
+
+        <div>
+          <label for="address">Address:</label>
+          <input id="address" type="text" placeholder="Enter address here">
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" type="text" placeholder="Enter email here">
+        </div>
+
+        <div>
+          <label for="number">Phone Number:</label>
+          <input id="number" type="text" placeholder="Enter 10 digit number">
+        </div>
+
+        <div>
+          <label for="iq">IQ:</label>
+          <input id="iq" type="text" placeholder="Enter IQ here">
+        </div>
+
+        <div >
+          <label for="gender" class='gender'>Gender</label>
+          <div class='male'>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </div>
+          <div class='other'>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div>
+          <label for="date">Date of Proposed Outing: </label>
+          <input type="date">
+        </div>
+      </div>
+      
+      <div class='line-break'></div>
+
+      <div style='padding-left:1rem'>
+        <p>Check All That Apply</p>
+        <div>
+          <input id="requirements" type="checkbox">
+          <label for="requirements">I have tattoos and/or piercings</label>
+        </div>
+        <div>
+          <input id="olderThanDaughter" type="checkbox">
+          <label for="olderThanDaughter">I am more than 2 years older than my daughter</label>
+        </div>
+        <div>
+          <input id="van" type="checkbox">
+          <label for="van">I own a panel van or V8 ute</label>
+        </div>
+        <div>
+          <input id="job" type="checkbox">
+          <label for="job">I work full-time</label>
+        </div>
+        <div>
+          <input id="parents" type="checkbox">
+          <label for="parents">My parents are rich</label>
+        </div>
+        <div>
+          <input id="date" type="checkbox">
+          <label for="date">Is the date at a well lit public location</label>
+        </div>
+      </div>
+      <div class='line-break'></div>
+
+      <div style='padding-left:1rem'>
+        <div style='margin-top:1rem;'>
+          <label for="politics">Politics:</label>
+          <select id="politics">
+            <option value="liberal">Left Wing</option>
+            <option value="conservative">Right Wing</option>
+            <option value="moderate">Conservative</option>
+          </select>
+          <label for="education">Education Level Completed:</label>
+          <select id="education">
+            <option value="university">University</option>
+            <option value="highSchool">High School</option>
+            <option value="highSchool">None</option>
+          </select>
+        </div>
+      </div>
+
+      <div class='line-break'></div>  
+
+      <div style='padding-left:1rem'>
+        <p>Essay Section</p>
+        <p>In 50 words or more explain why you want to date my daughter</p>
+        <textarea placeholder='Enter Text Here' style='width:420px; height:80px'></textarea>
+        <p>Please upload contact details for 2 references</p>
+        <textarea placeholder='Enter Text Here' style='width:420px; height:80px; margin-bottom: 1rem;'></textarea>
+        <div style='margin-bottom:1rem'>
+          <p style='display: inline;'>Upload Police Clearance Certificate, Bank Statement and Medical Certificates here:</p>
+          <button>
+            <label for="fileUploadButton" class="custom-file-upload">
+            Attach Files
+            <input id="fileUploadButton" type="file" style="display:none;">
+            </label>
+          </button>
+        </div>
+      </div>
+    </div> 
+    <button>Send your application</button>
+</main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.world-domination{
+
+  white-space: nowrap;
+  overflow-wrap: break-word;
+}
+
+.title{
+  text-align: center;
+}
+div{
+  display:flex;
+  flex-direction:column;
+  max-width: 50vw;
+  align-items:center;
+  margin:auto;
+}
+.day{
+  font-weight: bold;
+  text-align:center;
+}
+
+.monday{
+  width: 80px;
+}

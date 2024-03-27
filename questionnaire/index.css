@@ -1,0 +1,24 @@
+.container{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.male{
+  margin-top: 1rem;
+}
+
+.other{
+  margin-bottom: 1rem;
+}
+
+.line-break{
+  border-bottom:2px solid black;
+  margin-top: 1rem;
+
+}
+
+.main-container{
+  max-width: 50vw;
+  margin:auto;
+}
